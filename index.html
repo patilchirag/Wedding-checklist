@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Wedding Checklist · December 30, 2026</title>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       WHATSAPP / SOCIAL PREVIEW (Open Graph tags)
+       IMPORTANT: replace YOUR-USERNAME and REPO with your real values.
+       The og:image MUST be a full https URL to the PNG (not a relative path)
+       or WhatsApp will not show it.
+  ═══════════════════════════════════════════════════════════════════ -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="Our Wedding Checklist" />
+  <meta property="og:description" content="December 30, 2026 · Tap to open the checklist and follow along as we plan the big day." />
+  <meta property="og:image"       content="https://YOUR-USERNAME.github.io/REPO/card.png" />
+  <meta property="og:image:width"  content="760" />
+  <meta property="og:image:height" content="980" />
+  <meta property="og:url"         content="https://YOUR-USERNAME.github.io/REPO/" />
+
+  <!-- Twitter (also used by some apps) -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Our Wedding Checklist" />
+  <meta name="twitter:description" content="December 30, 2026 · Tap to open the checklist." />
+  <meta name="twitter:image"       content="https://YOUR-USERNAME.github.io/REPO/card.png" />
+
+  <!-- ══════════════════════════════════════════════════════════════
+       AUTO-REDIRECT to the actual checklist.
+       A human who taps the link is sent straight to your Google
+       Apps Script checklist. WhatsApp's preview crawler does NOT
+       follow this redirect — it only reads the OG tags above — so
+       the preview still shows your card.
+  ═══════════════════════════════════════════════════════════════════ -->
+  <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbzKQJJsRJeg5cMHjBBg-oST2ybeSXlwCoLpdbCYwM5YUBdzYX6zXPiMJ14ON8GNbxs/exec" />
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      background: #213A33;
+      color: #EEF1EC;
+      font-family: Georgia, 'Times New Roman', serif;
+      text-align: center;
+      padding: 24px;
+    }
+    img { max-width: 360px; width: 100%; border-radius: 14px; box-shadow: 0 12px 40px rgba(0,0,0,0.4); }
+    a {
+      display: inline-block;
+      background: #B0893E;
+      color: #213A33;
+      text-decoration: none;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      padding: 14px 32px;
+      border-radius: 14px;
+    }
+    p { font-family: Helvetica, Arial, sans-serif; color: #9EBAAF; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <!-- Fallback shown only if JS/redirect is slow -->
+  <img src="card.png" alt="Our Wedding Checklist" />
+  <a href="https://script.google.com/macros/s/AKfycbzKQJJsRJeg5cMHjBBg-oST2ybeSXlwCoLpdbCYwM5YUBdzYX6zXPiMJ14ON8GNbxs/exec">
+    Open the checklist &#8599;
+  </a>
+  <p>If you are not redirected automatically, tap the button above.</p>
+
+  <script>
+    // Belt-and-suspenders redirect (runs for real visitors, not the WhatsApp crawler)
+    window.location.replace("https://script.google.com/macros/s/AKfycbzKQJJsRJeg5cMHjBBg-oST2ybeSXlwCoLpdbCYwM5YUBdzYX6zXPiMJ14ON8GNbxs/exec");
+  </script>
+</body>
+</html>
